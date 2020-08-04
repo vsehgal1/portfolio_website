@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { Layout, Header, Content } from 'react-mdl'
+import Main from './components/main';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="demo-big-content">
+      <Layout>
+        <Header className='headerColor'  scroll
+        style={{color:'#947240', fontSize: '40px', fontWeight: 'bold', opacity:'.7'}}>
+          Vikram Sehgal
+        </Header>
+        <Content>
+          <div className="page-content" />
+          <Main />
+        </Content>
+      </Layout>
     </div>
   );
 }

@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.headerColor{
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.homeGrid{
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+text-align: center;
+position: fixed;
+top: 100;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.avatarImage{
+    border-radius: 50%;
+    padding-top: 3em;
+    height: 250px;
+}
+.homeText{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeText h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: #947240;
+    margin: auto;
+}
+.homeText .paraText{
+    padding: 2em;
+}
+.paraText p{
+    font-weight: bold;
+    color: #947240;
+    font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homeText hr{
+    border-top: 5px dotted #947240;
+    width: 50%;
+    margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.socialMedia{
+    display: flex;;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.socialMedia i{
+    color: #947240;
+    font-size: 7em;
+    padding: 8px;
 }
