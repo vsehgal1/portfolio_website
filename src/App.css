@@ -1,3 +1,7 @@
+body{ background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
 .headerColor{
     background: #FFEFBA;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
@@ -8,7 +12,7 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 text-align: center;
-position: fixed;
+/* position: fixed; */
 top: 100;
 left: 0;
 width: 100%;
@@ -58,4 +62,32 @@ height: 100%;
     color: #947240;
     font-size: 7em;
     padding: 8px;
+}
+.experienceTextMain{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+}
+.experienceText{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 5em;
+    /* margin-top: 5em; */
+}
+.experienceText h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #947240;
+    margin: auto;
+}
+.experienceTextMain h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #947240;
+    margin: auto;
 }

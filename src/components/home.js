@@ -6,9 +6,10 @@ export default class Home extends React.Component {
     render() {
         return (
             <div
-            style={{width:'100%', margin: 'auto'}}>
-                <Grid className='homeGrid'>
-                    <Cell col={12}>
+            className="mainDiv"
+            style={{width:'100%', margin: 'auto', height:'100%'}}>
+                <Grid className='homeGrid'style={{height:'100%'}}>
+                    <Cell col={12} style={{height:'100%'}}>
                         <img 
                         src={logo} 
                         alt='avatar'
